@@ -65,11 +65,10 @@ public class BaseTest {
 	   }
 		logger.info("Maximizing Browser");
 	   driver.manage().window().maximize();
-		/*
-		 * logger.info("Deleting Cookies"); driver.manage().deleteAllCookies();
-		 * driver.get("chrome://settings/clearBrowserData");
-		 * driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
-		 */
+	   logger.info("Deleting Cookies");
+	   driver.manage().deleteAllCookies();
+	   driver.get("chrome://settings/clearBrowserData");
+	   driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
 	   driver.get("https://auth.testproject.io/auth/realms/TP/protocol/openid-connect/auth?client_id=tp.app&redirect_uri=https%3A%2F%2Fapp.testproject.io%2Fcallback.html&response_type=id_token%20token&scope=openid%20profile&state=ecb48b28d0a546b1be90894a0846e1a2&nonce=9a4ce0c5523d401a96fe7ae26715a568");
 		
 		

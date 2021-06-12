@@ -20,6 +20,9 @@
 		<artifactId>maven-surefire-plugin</artifactId>
 		<version>2.19.1</version>
 			<configuration>
+			<systemPropertyVariables>
+         <browser>${browser}</browser>
+         </systemPropertyVariables>
      			<testFailureIgnore>true</testFailureIgnore>
 				<suiteXmlFiles>
 				<!-- TestNG suite XML files	 -->			

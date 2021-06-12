@@ -125,7 +125,7 @@ public class Click_Image_Profile_Assert extends BaseTest {
     {
 		ExtentReport extent = new ExtentReport(result, driver);
 		extent.teardown(result,driver);
-		//driver.close();
+		driver.close();
     }
 	
 	@AfterTest

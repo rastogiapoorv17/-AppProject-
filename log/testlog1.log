@@ -138,3 +138,13 @@
 2021-06-12 11:18:21,991 [main] INFO LoginTest - Maximizing Browser
 2021-06-12 11:18:25,217 [main] INFO LoginTest - Opening LoginPage
 2021-06-12 11:18:25,966 [main] INFO LoginTest - Submitting Login Button
+2021-06-12 12:05:44,682 [main] INFO LoginTest - Opening Browser
+2021-06-12 12:05:55,011 [main] INFO LoginTest - Maximizing Browser
+2021-06-12 12:05:55,137 [main] INFO LoginTest - Deleting Cookies
+2021-06-12 12:05:59,685 [main] INFO LoginTest - Opening LoginPage
+2021-06-12 12:06:00,104 [main] INFO LoginTest - Submitting Login Button
+2021-06-12 12:08:30,331 [main] INFO LoginTest - Opening Browser
+2021-06-12 12:08:36,344 [main] INFO LoginTest - Maximizing Browser
+2021-06-12 12:08:36,487 [main] INFO LoginTest - Deleting Cookies
+2021-06-12 12:08:39,655 [main] INFO LoginTest - Opening LoginPage
+2021-06-12 12:08:39,897 [main] INFO LoginTest - Submitting Login Button

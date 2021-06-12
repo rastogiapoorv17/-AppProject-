@@ -5,10 +5,10 @@
       <listener class-name="utilities.TestngListener"/>
 </listeners>
   <test thread-count="5" name="Test">
-  <parameter name= "browsername" value="CHROME"></parameter>
+  <parameter name= "browsername" value="${browser}"></parameter>
     <classes>
-      <!-- <class name="com.main.test.Click_Image_Profile_Assert"/>
-      <class name="com.main.test.SignUpTest"/> -->
+     <class name="com.main.test.Click_Image_Profile_Assert"/>
+      <class name="com.main.test.SignUpTest"/> 
       <class name="com.main.test.LoginTest"/>
     </classes>
   </test> <!-- Test -->
