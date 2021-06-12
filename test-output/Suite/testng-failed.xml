@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.TestngListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browsername" value="ie"/>
+    <classes>
+      <class name="com.main.test.LoginTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="initiate_launch"/>
+          <include name="LaunchURL"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.main.test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

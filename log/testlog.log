@@ -1,0 +1,140 @@
+2021-02-06 12:33:47,119 - LoginTest -INFO - Opening Browser
+2021-02-06 12:34:01,943 - LoginTest -INFO - Maximizing Browser
+2021-02-06 12:34:02,088 - LoginTest -INFO - Deleting Cookies
+2021-02-06 12:34:07,520 - LoginTest -INFO - Opening LoginPage
+2021-02-06 12:34:08,303 - LoginTest -INFO - Submitting Login Button
+2021-02-06 12:45:55,562 - LoginTest -INFO - Opening Browser
+2021-02-06 12:46:16,126 - LoginTest -INFO - Maximizing Browser
+2021-02-06 12:46:16,372 - LoginTest -INFO - Deleting Cookies
+2021-02-06 12:46:23,716 - LoginTest -INFO - Opening LoginPage
+2021-02-06 12:46:24,594 - LoginTest -INFO - Submitting Login Button
+2021-04-08 16:45:48,142 - LoginTest -INFO - Opening Browser
+2021-04-08 16:51:56,755 - LoginTest -INFO - Opening Browser
+2021-04-08 16:52:16,895 - LoginTest -INFO - Maximizing Browser
+2021-04-08 16:52:17,021 - LoginTest -INFO - Deleting Cookies
+2021-04-08 16:52:23,098 - LoginTest -INFO - Opening LoginPage
+2021-04-08 16:52:23,506 - LoginTest -INFO - Submitting Login Button
+2021-06-11 16:20:55,171 - LoginTest -INFO - Opening Browser
+2021-06-11 16:21:17,434 - LoginTest -INFO - Maximizing Browser
+2021-06-11 16:21:17,584 - LoginTest -INFO - Deleting Cookies
+2021-06-11 16:21:24,205 - LoginTest -INFO - Opening LoginPage
+2021-06-11 16:21:24,716 - LoginTest -INFO - Submitting Login Button
+2021-06-11 16:43:34,626 - LoginTest -INFO - Opening Browser
+2021-06-11 16:44:08,266 - LoginTest -INFO - Maximizing Browser
+2021-06-11 16:44:08,772 - LoginTest -INFO - Deleting Cookies
+2021-06-11 16:45:30,962 - LoginTest -INFO - Signing Up
+2021-06-11 16:45:59,693 - LoginTest -INFO - Successfully Signup
+2021-06-11 17:10:21,016 - LoginTest -INFO - Opening Browser
+2021-06-11 17:10:32,648 - LoginTest -INFO - Maximizing Browser
+2021-06-11 17:10:32,811 - LoginTest -INFO - Deleting Cookies
+2021-06-11 17:10:37,674 - LoginTest -INFO - Opening LoginPage
+2021-06-11 17:10:38,195 - LoginTest -INFO - Submitting Login Button
+2021-06-11 17:10:41,712 - LoginTest -INFO - Opening HomePage
+2021-06-11 17:10:41,733 - LoginTest -INFO - Hover On Profile
+2021-06-11 17:11:13,266 - LoginTest -INFO - Opening Browser
+2021-06-11 17:11:18,362 - LoginTest -INFO - Maximizing Browser
+2021-06-11 17:11:18,505 - LoginTest -INFO - Deleting Cookies
+2021-06-11 17:11:22,966 - LoginTest -INFO - Opening LoginPage
+2021-06-11 17:11:23,243 - LoginTest -INFO - Submitting Login Button
+2021-06-11 17:11:25,992 - LoginTest -INFO - Successfully Login
+2021-06-11 17:11:25,992 - LoginTest -INFO - Opening HomePage
+2021-06-11 17:12:16,897 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 17:12:24,410 - LoginTest -INFO - Installing Image Compare Addon
+2021-06-11 21:13:26,816 - LoginTest -INFO - Opening Browser
+2021-06-11 21:13:36,749 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:13:36,908 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:13:40,971 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:13:41,337 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:13:44,114 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:13:44,139 - LoginTest -INFO - Hover On Profile
+2021-06-11 21:13:53,442 - LoginTest -INFO - Verifying Test Match
+2021-06-11 21:13:53,516 - LoginTest -INFO - Opening Browser
+2021-06-11 21:13:58,355 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:13:58,583 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:14:02,621 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:14:02,990 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:14:05,058 - LoginTest -INFO - Successfully Login
+2021-06-11 21:14:05,059 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:14:55,629 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:14:55,868 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:17:46,318 - LoginTest -INFO - Opening Browser
+2021-06-11 21:17:51,193 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:17:51,318 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:17:54,394 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:17:54,618 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:17:56,989 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:17:57,001 - LoginTest -INFO - Hover On Profile
+2021-06-11 21:18:07,055 - LoginTest -INFO - Verifying Test Match
+2021-06-11 21:18:07,104 - LoginTest -INFO - Opening Browser
+2021-06-11 21:18:12,252 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:18:12,477 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:18:15,897 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:18:16,265 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:18:18,395 - LoginTest -INFO - Successfully Login
+2021-06-11 21:18:18,395 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:19:08,889 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:19:09,111 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:24:09,104 - LoginTest -INFO - Opening Browser
+2021-06-11 21:24:14,036 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:24:14,156 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:24:18,034 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:24:18,289 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:24:20,979 - LoginTest -INFO - Successfully Login
+2021-06-11 21:24:20,980 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:25:11,458 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:25:11,636 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:30:38,431 - LoginTest -INFO - Opening Browser
+2021-06-11 21:30:43,498 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:30:43,629 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:30:47,213 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:30:47,510 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:30:50,429 - LoginTest -INFO - Successfully Login
+2021-06-11 21:30:50,429 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:31:40,945 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:31:41,145 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:32:53,897 - LoginTest -INFO - Opening Browser
+2021-06-11 21:32:59,182 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:32:59,312 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:33:02,454 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:33:02,720 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:33:05,460 - LoginTest -INFO - Successfully Login
+2021-06-11 21:33:05,460 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:33:55,954 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:33:56,210 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:48:02,750 - LoginTest -INFO - Opening Browser
+2021-06-11 21:48:06,687 - LoginTest -INFO - Maximizing Browser
+2021-06-11 21:48:06,823 - LoginTest -INFO - Deleting Cookies
+2021-06-11 21:48:10,454 - LoginTest -INFO - Opening LoginPage
+2021-06-11 21:48:10,684 - LoginTest -INFO - Submitting Login Button
+2021-06-11 21:48:12,844 - LoginTest -INFO - Successfully Login
+2021-06-11 21:48:12,844 - LoginTest -INFO - Opening HomePage
+2021-06-11 21:49:03,403 - LoginTest -INFO - Clicking on Scroll Button
+2021-06-11 21:49:03,593 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-11 21:49:04,486 - LoginTest -INFO - UnInstalling Image Compare Addon
+2021-06-11 21:49:06,039 - LoginTest -INFO - UnInstalled Image Compare Addon
+2021-06-12 10:26:27,487 - LoginTest -INFO - Opening Browser
+2021-06-12 10:26:40,123 - LoginTest -INFO - Maximizing Browser
+2021-06-12 10:26:40,250 - LoginTest -INFO - Deleting Cookies
+2021-06-12 10:26:48,584 - LoginTest -INFO - Opening LoginPage
+2021-06-12 10:26:48,825 - LoginTest -INFO - Submitting Login Button
+2021-06-12 10:27:25,616 - LoginTest -INFO - Opening Browser
+2021-06-12 10:28:15,036 - LoginTest -INFO - Opening Browser
+2021-06-12 10:29:06,155 - LoginTest -INFO - Opening Browser
+2021-06-12 10:48:20,921 - LoginTest -INFO - Opening Browser
+2021-06-12 10:52:44,372 - LoginTest -INFO - Opening Browser
+2021-06-12 10:53:20,480 - LoginTest -INFO - Maximizing Browser
+2021-06-12 10:53:20,506 - LoginTest -INFO - Deleting Cookies
+2021-06-12 10:56:04,968 - LoginTest -INFO - Opening Browser
+2021-06-12 10:56:15,784 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:03:50,884 - LoginTest -INFO - Opening Browser
+2021-06-12 11:04:18,310 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:06:26,363 - LoginTest -INFO - Opening Browser
+2021-06-12 11:06:35,535 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:16:47,037 - LoginTest -INFO - Opening Browser
+2021-06-12 11:17:07,600 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:17:08,815 - LoginTest -INFO - Opening Browser
+2021-06-12 11:17:22,224 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:18:09,171 - LoginTest -INFO - Opening Browser
+2021-06-12 11:18:21,991 - LoginTest -INFO - Maximizing Browser
+2021-06-12 11:18:25,217 - LoginTest -INFO - Opening LoginPage
+2021-06-12 11:18:25,966 - LoginTest -INFO - Submitting Login Button

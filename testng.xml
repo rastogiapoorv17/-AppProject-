@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+<listeners>
+      <listener class-name="utilities.TestngListener"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name= "browsername" value="CHROME"></parameter>
+    <classes>
+      <!-- <class name="com.main.test.Click_Image_Profile_Assert"/>
+      <class name="com.main.test.SignUpTest"/> -->
+      <class name="com.main.test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
