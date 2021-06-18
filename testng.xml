@@ -9,7 +9,7 @@
     <classes>
       <class name="com.main.test.Click_Image_Profile_Assert"/>
       <class name="com.main.test.SignUpTest"/> 
-      <class name="com.main.test.LoginTest"/> -->
+      <class name="com.main.test.LoginTest"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -13,8 +13,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class CommonExcelRead {
 	public ArrayList<String> getData(String testName) throws IOException {
 		ArrayList<String> arr = new ArrayList<String>();
-
-		FileInputStream fis = new FileInputStream("./TestAppProject.xlsx");
+        
+		FileInputStream fis = new FileInputStream("src/resources/TestAppProject.xlsx");
 		@SuppressWarnings("resource")
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		int sheetcount = wb.getNumberOfSheets();

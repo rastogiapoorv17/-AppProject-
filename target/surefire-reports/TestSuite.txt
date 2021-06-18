@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 104.609 sec <<< FAILURE! - in TestSuite
-clickTest(com.main.test.Click_Image_Profile_Assert)  Time elapsed: 83.567 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='addon-info-action addon-info-btn blue ng-binding ng-scope']"}
-  (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LP-5CD6518TWJ', ip: '192.168.29.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\apoorv.r\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c0e63cf62655edf56fe7a170e99b475f
-*** Element info: {Using=xpath, value=//div[@class='addon-info-action addon-info-btn blue ng-binding ng-scope']}
-	at com.main.test.Click_Image_Profile_Assert.clickTest(Click_Image_Profile_Assert.java:101)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 94.159 sec - in TestSuite

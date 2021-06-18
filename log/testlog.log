@@ -260,3 +260,167 @@
 2021-06-18 11:08:28,072 - LoginTest -INFO - Opening HomePage
 2021-06-18 11:09:18,561 - LoginTest -INFO - Clicking on Scroll Button
 2021-06-18 11:09:19,055 - LoginTest -INFO - Installing	PDF Actions Addon
+2021-06-18 15:15:22,708 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 15:15:40,070 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 15:15:40,227 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 15:15:46,514 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 15:15:52,690 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 15:15:52,843 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 15:15:59,517 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 15:16:00,489 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 15:16:26,573 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 15:16:26,820 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 15:16:30,763 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 15:16:41,859 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 15:16:41,990 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 15:17:01,164 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 15:24:52,789 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:24:58,512 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:24:58,666 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:25:03,658 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:25:03,927 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:29:53,631 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:29:59,734 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:29:59,915 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:30:04,746 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:30:04,979 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:31:13,044 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:31:17,782 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:31:17,924 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:31:21,286 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:31:21,575 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:33:08,686 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:33:13,489 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:33:13,634 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:33:16,767 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:33:17,017 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:34:57,668 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:35:02,297 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:35:02,436 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:35:05,906 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:35:06,130 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:38:28,088 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:38:33,088 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:38:33,221 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:38:36,805 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:45:24,776 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:45:30,076 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:45:30,228 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:45:33,736 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:45:34,147 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:46:42,651 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:46:48,586 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:46:48,739 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:46:53,622 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 15:46:53,902 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 15:55:07,326 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 15:55:13,974 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 15:55:14,131 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 15:55:21,984 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 15:55:26,548 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 15:55:26,677 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 15:55:34,381 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 15:55:39,826 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 15:55:39,958 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 15:55:52,592 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 15:56:02,312 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 15:56:28,042 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 15:56:28,584 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 15:56:32,404 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:03:30,002 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 16:03:37,912 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 16:03:38,095 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 16:03:40,689 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:03:43,766 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:03:43,923 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:03:48,647 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 16:03:52,996 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 16:03:53,148 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 16:04:00,007 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 16:04:05,942 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 16:04:08,696 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:04:08,918 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:04:15,312 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:04:15,543 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:04:18,893 - com.main.test.SignUpTest -INFO - Successfully Login
+2021-06-18 16:04:18,895 - com.main.test.SignUpTest -INFO - Opening HomePage
+2021-06-18 16:05:09,780 - com.main.test.SignUpTest -INFO - Clicking on Scroll Button
+2021-06-18 16:05:10,117 - com.main.test.SignUpTest -INFO - Installing	PDF Actions Addon
+2021-06-18 16:12:09,352 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 16:12:14,724 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 16:12:14,899 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 16:12:17,896 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:12:21,318 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:12:21,466 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:12:25,332 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 16:12:29,029 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 16:12:29,161 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 16:12:39,439 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 16:12:44,487 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 16:17:29,397 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:17:44,802 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:17:45,392 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:23:13,051 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:23:23,693 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:23:23,843 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:25:07,940 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:25:18,892 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:25:19,031 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:25:25,526 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 16:25:25,770 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 16:26:27,727 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:26:33,931 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:26:34,076 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:26:59,630 - com.main.test.LoginTest -INFO - Opening LoginPage
+2021-06-18 16:26:59,988 - com.main.test.LoginTest -INFO - Submitting Login Button
+2021-06-18 16:28:22,940 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 16:28:29,572 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 16:28:29,702 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 16:28:35,509 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:28:40,372 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:28:40,501 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:28:44,938 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 16:28:48,725 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 16:28:48,862 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 16:28:54,278 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 16:29:02,040 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 16:29:07,889 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:29:08,221 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:29:12,126 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:29:12,457 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:29:15,126 - com.main.test.SignUpTest -INFO - Opening HomePage
+2021-06-18 16:29:15,426 - com.main.test.SignUpTest -INFO - Hover On Profile
+2021-06-18 16:29:32,017 - com.main.test.SignUpTest -INFO - Verifying Test Match
+2021-06-18 16:29:32,280 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:36:25,817 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 16:36:34,941 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 16:36:35,095 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 16:36:42,580 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-18 16:36:49,376 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-18 16:36:49,516 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-18 16:37:06,159 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-18 16:37:11,095 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-18 16:37:11,281 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-18 16:37:18,361 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-18 16:37:34,962 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-18 16:37:36,696 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:37:36,903 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:37:39,522 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-18 16:37:40,100 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-18 16:37:43,011 - com.main.test.SignUpTest -INFO - Opening HomePage
+2021-06-18 16:37:43,080 - com.main.test.SignUpTest -INFO - Hover On Profile
+2021-06-18 16:37:56,397 - com.main.test.SignUpTest -INFO - Verifying Test Match
+2021-06-18 16:38:47,457 - com.main.test.SignUpTest -INFO - Clicking on Scroll Button
+2021-06-18 16:38:48,283 - com.main.test.SignUpTest -INFO - Installing	PDF Actions Addon
+2021-06-18 16:40:47,166 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-18 16:40:54,458 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-18 16:40:54,604 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-18 16:40:57,757 - com.main.test.Click_Image_Profile_Assert -INFO - Opening LoginPage
+2021-06-18 16:40:58,235 - com.main.test.Click_Image_Profile_Assert -INFO - Submitting Login Button
+2021-06-18 16:41:00,885 - com.main.test.Click_Image_Profile_Assert -INFO - Opening HomePage
+2021-06-18 16:41:00,902 - com.main.test.Click_Image_Profile_Assert -INFO - Hover On Profile
+2021-06-18 16:41:12,410 - com.main.test.Click_Image_Profile_Assert -INFO - Verifying Test Match
+2021-06-18 16:42:03,057 - com.main.test.Click_Image_Profile_Assert -INFO - Clicking on Scroll Button
+2021-06-18 16:42:03,356 - com.main.test.Click_Image_Profile_Assert -INFO - Installing	PDF Actions Addon
+2021-06-18 16:42:09,770 - com.main.test.Click_Image_Profile_Assert -INFO - UnInstalling Image Compare Addon
+2021-06-18 16:42:11,300 - com.main.test.Click_Image_Profile_Assert -INFO - UnInstalled Image Compare Addon

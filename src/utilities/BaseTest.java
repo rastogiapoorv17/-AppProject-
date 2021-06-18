@@ -21,8 +21,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -32,14 +30,13 @@ public class BaseTest {
 
 	public static Logger logger_Method(String classname) {
 		logger = Logger.getLogger(classname);
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("src/resources/Log4j.properties");
 		return logger;
 	}
 
 	// Launch Browser
-	@BeforeMethod
-	@Parameters("browsername")
-	public void LaunchURL(String browsername) {
+	// @BeforeMethod
+	public WebDriver LaunchURL(String browsername) {
 
 		logger.info("Opening Browser");
 		// System.setProperty("webdriver.chrome.driver",
@@ -69,6 +66,7 @@ public class BaseTest {
 		driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);
 		driver.get(
 				"https://auth.testproject.io/auth/realms/TP/protocol/openid-connect/auth?client_id=tp.app&redirect_uri=https%3A%2F%2Fapp.testproject.io%2Fcallback.html&response_type=id_token%20token&scope=openid%20profile&state=ecb48b28d0a546b1be90894a0846e1a2&nonce=9a4ce0c5523d401a96fe7ae26715a568");
+		return driver;
 
 	}
 

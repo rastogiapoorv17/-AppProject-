@@ -260,3 +260,167 @@
 2021-06-18 11:08:28,072 [TestNG-tests-1] INFO LoginTest - Opening HomePage
 2021-06-18 11:09:18,561 [TestNG-tests-1] INFO LoginTest - Clicking on Scroll Button
 2021-06-18 11:09:19,055 [TestNG-tests-1] INFO LoginTest - Installing	PDF Actions Addon
+2021-06-18 15:15:22,708 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 15:15:40,070 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 15:15:40,227 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 15:15:46,514 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 15:15:52,690 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 15:15:52,843 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 15:15:59,517 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 15:16:00,489 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 15:16:26,573 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 15:16:26,820 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 15:16:30,763 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 15:16:41,859 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 15:16:41,990 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 15:17:01,164 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 15:24:52,789 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:24:58,512 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:24:58,666 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:25:03,658 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:25:03,927 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:29:53,631 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:29:59,734 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:29:59,915 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:30:04,746 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:30:04,979 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:31:13,044 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:31:17,782 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:31:17,924 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:31:21,286 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:31:21,575 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:33:08,686 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:33:13,489 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:33:13,634 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:33:16,767 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:33:17,017 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:34:57,668 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:35:02,297 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:35:02,436 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:35:05,906 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:35:06,130 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:38:28,088 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:38:33,088 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:38:33,221 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:38:36,805 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:45:24,776 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:45:30,076 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:45:30,228 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:45:33,736 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:45:34,147 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:46:42,651 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:46:48,586 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:46:48,739 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:46:53,622 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 15:46:53,902 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 15:55:07,326 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 15:55:13,974 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 15:55:14,131 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 15:55:21,984 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 15:55:26,548 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 15:55:26,677 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 15:55:34,381 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 15:55:39,826 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 15:55:39,958 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 15:55:52,592 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 15:56:02,312 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 15:56:28,042 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 15:56:28,584 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 15:56:32,404 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:03:30,002 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 16:03:37,912 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 16:03:38,095 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 16:03:40,689 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:03:43,766 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:03:43,923 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:03:48,647 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 16:03:52,996 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 16:03:53,148 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 16:04:00,007 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 16:04:05,942 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 16:04:08,696 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:04:08,918 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:04:15,312 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:04:15,543 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:04:18,893 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Login
+2021-06-18 16:04:18,895 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening HomePage
+2021-06-18 16:05:09,780 [TestNG-tests-1] INFO com.main.test.SignUpTest - Clicking on Scroll Button
+2021-06-18 16:05:10,117 [TestNG-tests-1] INFO com.main.test.SignUpTest - Installing	PDF Actions Addon
+2021-06-18 16:12:09,352 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 16:12:14,724 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 16:12:14,899 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 16:12:17,896 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:12:21,318 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:12:21,466 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:12:25,332 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 16:12:29,029 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 16:12:29,161 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 16:12:39,439 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 16:12:44,487 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 16:17:29,397 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:17:44,802 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:17:45,392 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:23:13,051 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:23:23,693 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:23:23,843 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:25:07,940 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:25:18,892 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:25:19,031 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:25:25,526 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 16:25:25,770 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 16:26:27,727 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:26:33,931 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:26:34,076 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:26:59,630 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening LoginPage
+2021-06-18 16:26:59,988 [TestNG-tests-1] INFO com.main.test.LoginTest - Submitting Login Button
+2021-06-18 16:28:22,940 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 16:28:29,572 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 16:28:29,702 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 16:28:35,509 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:28:40,372 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:28:40,501 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:28:44,938 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 16:28:48,725 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 16:28:48,862 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 16:28:54,278 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 16:29:02,040 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 16:29:07,889 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:29:08,221 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:29:12,126 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:29:12,457 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:29:15,126 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening HomePage
+2021-06-18 16:29:15,426 [TestNG-tests-1] INFO com.main.test.SignUpTest - Hover On Profile
+2021-06-18 16:29:32,017 [TestNG-tests-1] INFO com.main.test.SignUpTest - Verifying Test Match
+2021-06-18 16:29:32,280 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:36:25,817 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 16:36:34,941 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 16:36:35,095 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 16:36:42,580 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-18 16:36:49,376 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-18 16:36:49,516 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-18 16:37:06,159 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-18 16:37:11,095 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-18 16:37:11,281 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-18 16:37:18,361 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-18 16:37:34,962 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-18 16:37:36,696 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:37:36,903 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:37:39,522 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-18 16:37:40,100 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-18 16:37:43,011 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening HomePage
+2021-06-18 16:37:43,080 [TestNG-tests-1] INFO com.main.test.SignUpTest - Hover On Profile
+2021-06-18 16:37:56,397 [TestNG-tests-1] INFO com.main.test.SignUpTest - Verifying Test Match
+2021-06-18 16:38:47,457 [TestNG-tests-1] INFO com.main.test.SignUpTest - Clicking on Scroll Button
+2021-06-18 16:38:48,283 [TestNG-tests-1] INFO com.main.test.SignUpTest - Installing	PDF Actions Addon
+2021-06-18 16:40:47,166 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-18 16:40:54,458 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-18 16:40:54,604 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-18 16:40:57,757 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening LoginPage
+2021-06-18 16:40:58,235 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Submitting Login Button
+2021-06-18 16:41:00,885 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening HomePage
+2021-06-18 16:41:00,902 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Hover On Profile
+2021-06-18 16:41:12,410 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Verifying Test Match
+2021-06-18 16:42:03,057 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Clicking on Scroll Button
+2021-06-18 16:42:03,356 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Installing	PDF Actions Addon
+2021-06-18 16:42:09,770 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - UnInstalling Image Compare Addon
+2021-06-18 16:42:11,300 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - UnInstalled Image Compare Addon
