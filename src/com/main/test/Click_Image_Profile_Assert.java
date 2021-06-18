@@ -1,12 +1,14 @@
 package com.main.test;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+//import org.testng.annotations.DataProvider;
 
 //import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -15,6 +17,7 @@ import com.main.pages.LoginPage;
 
 import utilities.BaseTest;
 import utilities.CommonExcelRead;
+//import utilities.CommonExcelRead;
 import utilities.ExtentReport;
 
 
@@ -27,14 +30,17 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		ExtentReport.ExtentReportInitiate();
 	}
 	
-	@Test(enabled = false,priority=1,dataProvider = "DataShare")
-	public void navigatetoScoll(String login, String password)
+	@Test(enabled = false,priority=1)
+	public void navigatetoScoll(String login, String password) throws IOException
 	{
+
+		CommonExcelRead data= new CommonExcelRead();
+		ArrayList<String> creds= data.getData("Credentials");
 		ExtentReport.createTest("My Profile Text Test");
 		logger.info("Opening LoginPage");
 		LoginPage lp = new LoginPage(driver);
-		lp.loginField(login);
-		lp.passwordField(password);
+		lp.loginField(creds.get(1));
+		lp.passwordField(creds.get(2));
 		logger.info("Submitting Login Button");
 		ExtentReport.test.info("Submitting Login Button");
 		lp.loginsubmit();
@@ -63,15 +69,17 @@ public class Click_Image_Profile_Assert extends BaseTest {
 			ExtentReport.test.fail(e.getMessage());
 		}
 	}
-	@Test(enabled = true,priority=2,dataProvider = "DataShare")
-	public void clickTest(String login, String password) throws InterruptedException, IOException
+	@Test(enabled = true,priority=2)
+	public void clickTest() throws InterruptedException, IOException
 	{
+		CommonExcelRead data= new CommonExcelRead();
+		ArrayList<String> creds= data.getData("Credentials");
 		ExtentReport.createTest("Install Image Comparison Test");
 		logger.info("Opening LoginPage");
 		ExtentReport.test.info("Submitting Login Button");
 		LoginPage lp = new LoginPage(driver);
-		lp.loginField(login);
-		lp.passwordField(password);
+		lp.loginField(creds.get(1));
+		lp.passwordField(creds.get(2));
 		logger.info("Submitting Login Button");
 		lp.loginsubmit();
 		logger.info("Successfully Login");
@@ -102,22 +110,6 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		hp.image_Comapre_UnInstall();
 		hp.image_Comapre_UnInstall_Confirm();
 		logger.info("UnInstalled Image Compare Addon");
-	}
-	@DataProvider(name="DataShare")
-	public Object[][] getData() {
-		
-		CommonExcelRead er= new CommonExcelRead("./TestAppProject.xlsx");
-		int rowc=er.getrowcount(0);
-		Object[][] data= new Object[rowc][2];
-		for(int i=0;i<rowc;i++)
-		{
-			data[i][0]= er.getExcelData(0, i, 0);
-			data[i][1]= er.getExcelData(0, i, 1);
-		}
-		return data;
-		
-		 
-		
 	}
 	
 	@AfterMethod 

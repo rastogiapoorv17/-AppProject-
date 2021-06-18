@@ -1,10 +1,13 @@
 package com.main.test;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+//import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.main.pages.LoginPage;
@@ -20,37 +23,24 @@ public class LoginTest extends BaseTest {
 		super.logger_Method("LoginTest");
 		ExtentReport.ExtentReportInitiate();
 	}
-	@Test(dataProvider = "DataShare")
-	public void loginTest(String login, String password)
+	@Test
+	public void loginTest() throws IOException
 	{
+		CommonExcelRead data= new CommonExcelRead();
+		ArrayList<String> creds= data.getData("Credentials");
 		ExtentReport.createTest("Login Test");
 		logger.info("Opening LoginPage");
 		LoginPage lp = new LoginPage(driver);
-		lp.loginField(login);
-		lp.passwordField(password);
+		System.out.println(creds.get(1));
+		lp.loginField(creds.get(1));
+		lp.passwordField(creds.get(2));
 		logger.info("Submitting Login Button");
 		lp.loginsubmit();
 		ExtentReport.test.pass("Successfully Login");
 		
 	}
-	@DataProvider(name="DataShare")
-	public Object[][] getData() {
-		
-		
-		CommonExcelRead er= new CommonExcelRead("./TestAppProject.xlsx");
-		int rowc=er.getrowcount(0);
-		System.out.println(rowc);
-		Object[][] data= new Object[rowc][2];
-		for(int i=0;i<rowc;i++)
-		{
-			data[i][0]= er.getExcelData(0, i, 0);
-			data[i][1]= er.getExcelData(0, i, 1);
-		}
-		return data;
-		
-		 
-		
-	}
+
+	
 	@AfterMethod 
 	 public void  tearDown(ITestResult result) throws Exception 
    {

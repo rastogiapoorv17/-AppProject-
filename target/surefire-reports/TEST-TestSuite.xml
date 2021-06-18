@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.347" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="104.609" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\apoorv.r\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2396827752596598193.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\apoorv.r\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3475300112986123923.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\CCM;C:\MyData\Software\apache-maven-3.6.1-bin\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\apoorv.r\AppData\Local\Microsoft\WindowsApps;C:\MyData\Software\apache-maven-3.6.1-bin\bin;C:\Program Files\Java\jdk1.8.0_241\bin;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginTest" classname="com.main.test.LoginTest" time="2.518"/>
+  <testcase name="loginTest" classname="com.main.test.LoginTest" time="3.081"/>
+  <testcase name="clickTest" classname="com.main.test.Click_Image_Profile_Assert" time="83.567">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;addon-info-action addon-info-btn blue ng-binding ng-scope&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LP-5CD6518TWJ&apos;, ip: &apos;192.168.29.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\apoorv.r\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c0e63cf62655edf56fe7a170e99b475f&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;addon-info-action addon-info-btn blue ng-binding ng-scope&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='addon-info-action addon-info-btn blue ng-binding ng-scope']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LP-5CD6518TWJ', ip: '192.168.29.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\apoorv.r\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51202}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0e63cf62655edf56fe7a170e99b475f
+*** Element info: {Using=xpath, value=//div[@class='addon-info-action addon-info-btn blue ng-binding ng-scope']}
+	at com.main.test.Click_Image_Profile_Assert.clickTest(Click_Image_Profile_Assert.java:101)
+</failure>
+    <system-out><![CDATA[Passed Test Case is: loginTest
+ INFO [TestNG-tests-1] (BaseTest.java:47)- Opening Browser
+ INFO [TestNG-tests-1] (BaseTest.java:61)- Maximizing Browser
+ INFO [TestNG-tests-1] (BaseTest.java:63)- Deleting Cookies
+Started Test Case is: clickTest
+3
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:78)- Opening LoginPage
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:83)- Submitting Login Button
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:85)- Successfully Login
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:87)- Opening HomePage
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:97)- Clicking on Scroll Button
+ INFO [TestNG-tests-1] (Click_Image_Profile_Assert.java:100)- Installing	PDF Actions Addon
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 16686
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 18, 2021 11:08:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>

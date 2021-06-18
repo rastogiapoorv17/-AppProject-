@@ -27,7 +27,7 @@ public class TestngListener implements ITestListener {
     public void onTestFailure(ITestResult result) {					
         // TODO Auto-generated method stub				
         System.out.println("Failed Test Case is: " + result.getName());	
-     
+        
     }
 
     @Override		
