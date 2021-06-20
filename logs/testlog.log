@@ -424,3 +424,26 @@
 2021-06-18 16:42:03,356 - com.main.test.Click_Image_Profile_Assert -INFO - Installing	PDF Actions Addon
 2021-06-18 16:42:09,770 - com.main.test.Click_Image_Profile_Assert -INFO - UnInstalling Image Compare Addon
 2021-06-18 16:42:11,300 - com.main.test.Click_Image_Profile_Assert -INFO - UnInstalled Image Compare Addon
+2021-06-20 17:59:09,693 - com.main.test.Click_Image_Profile_Assert -INFO - Opening Browser
+2021-06-20 17:59:24,366 - com.main.test.Click_Image_Profile_Assert -INFO - Maximizing Browser
+2021-06-20 17:59:24,560 - com.main.test.Click_Image_Profile_Assert -INFO - Deleting Cookies
+2021-06-20 17:59:28,778 - com.main.test.LoginTest -INFO - Opening Browser
+2021-06-20 17:59:34,463 - com.main.test.LoginTest -INFO - Maximizing Browser
+2021-06-20 17:59:34,916 - com.main.test.LoginTest -INFO - Deleting Cookies
+2021-06-20 17:59:40,657 - com.main.test.SignUpTest -INFO - Opening Browser
+2021-06-20 17:59:45,436 - com.main.test.SignUpTest -INFO - Maximizing Browser
+2021-06-20 17:59:45,596 - com.main.test.SignUpTest -INFO - Deleting Cookies
+2021-06-20 17:59:50,335 - com.main.test.SignUpTest -INFO - Signing Up
+2021-06-20 17:59:58,817 - com.main.test.SignUpTest -INFO - Successfully Signup
+2021-06-20 18:00:25,281 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-20 18:00:25,817 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-20 18:00:29,583 - com.main.test.SignUpTest -INFO - Opening LoginPage
+2021-06-20 18:00:31,485 - com.main.test.SignUpTest -INFO - Submitting Login Button
+2021-06-20 18:00:39,971 - com.main.test.SignUpTest -INFO - Opening HomePage
+2021-06-20 18:00:40,095 - com.main.test.SignUpTest -INFO - Hover On Profile
+2021-06-20 18:00:59,189 - com.main.test.SignUpTest -INFO - Verifying Test Match
+2021-06-20 18:00:59,270 - com.main.test.SignUpTest -INFO - Opening HomePage
+2021-06-20 18:01:50,406 - com.main.test.SignUpTest -INFO - Clicking on Scroll Button
+2021-06-20 18:01:52,152 - com.main.test.SignUpTest -INFO - Installing	PDF Actions Addon
+2021-06-20 18:01:54,016 - com.main.test.SignUpTest -INFO - UnInstalling Image Compare Addon
+2021-06-20 18:01:56,075 - com.main.test.SignUpTest -INFO - UnInstalled Image Compare Addon

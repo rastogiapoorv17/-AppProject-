@@ -3,6 +3,8 @@ package com.main.test;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -20,11 +22,12 @@ import utilities.CommonExcelRead;
 
 public class Click_Image_Profile_Assert extends BaseTest {
 	public WebDriver driver;
+	public static Logger log = LogManager.getLogger(BaseTest.class.getName());
 
 	@BeforeTest
 	@Parameters("browsername")
 	public void initiate_launch(String browsername) {
-		super.logger_Method(Click_Image_Profile_Assert.class.getName());
+		// super.logger_Method(Click_Image_Profile_Assert.class.getName());
 		driver = LaunchURL(browsername);
 	}
 
@@ -33,14 +36,14 @@ public class Click_Image_Profile_Assert extends BaseTest {
 
 		CommonExcelRead data = new CommonExcelRead();
 		ArrayList<String> creds = data.getData("Credentials");
-		logger.info("Opening LoginPage");
+		log.info("Opening LoginPage");
 		LoginPage lp = new LoginPage(driver);
 		lp.loginField(creds.get(1));
 		lp.passwordField(creds.get(2));
-		logger.info("Submitting Login Button");
+		log.info("Submitting Login Button");
 		lp.loginsubmit();
 
-		logger.info("Opening HomePage");
+		log.debug("Submitting Credentials");
 		HomePage hp = new HomePage(driver);
 		/*
 		 * WebElement sp1= driver.findElement(HomePage.spinner);
@@ -50,11 +53,11 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		// hp.click_Element();
 
 		String expectedText = "My Profile";
-		logger.info("Hover On Profile");
+		log.info("Hover On Profile");
 
 		hp.hoverProfile();
 		String actualText = hp.myProfile();
-		logger.info("Verifying Test Match");
+		log.error("Text Not Match On Hover");
 		try {
 			Assert.assertEquals(actualText, expectedText);
 
@@ -64,17 +67,11 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		}
 	}
 
-	@Test(dependsOnMethods= {"navigatetoScoll"},enabled = true, priority = 2)
+	@Test(dependsOnMethods = { "navigatetoScoll" }, enabled = true, priority = 2)
 	public void clickTest() throws InterruptedException, IOException {
-		/*
-		 * CommonExcelRead data = new CommonExcelRead(); ArrayList<String> creds =
-		 * data.getData("Credentials"); logger.info("Opening LoginPage"); LoginPage lp =
-		 * new LoginPage(driver); lp.loginField(creds.get(1));
-		 * lp.passwordField(creds.get(2)); logger.info("Submitting Login Button");
-		 * lp.loginsubmit(); logger.info("Successfully Login");
-		 * 
-		 * logger.info("Opening HomePage");
-		 */
+
+		log.info("Opening HomePage");
+
 		HomePage hp = new HomePage(driver);
 
 		/*
@@ -84,10 +81,10 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		String current_url = driver.getCurrentUrl();
 		driver.get(current_url);
 		Thread.sleep(30000);
-		logger.info("Clicking on Scroll Button");
+		log.info("Clicking on Scroll Button");
 		hp.imageComparisonScrollClick("\nPDF Actions\n");
 
-		logger.info("Installing	PDF Actions Addon");
+		log.debug("Installing	PDF Actions Addon");
 		hp.image_Comapre_Install();
 		/*
 		 * String install_actual_message= hp.install_message(); String
@@ -95,10 +92,10 @@ public class Click_Image_Profile_Assert extends BaseTest {
 		 * { Assert.assertEquals(install_actual_message, install_expected_message); }
 		 * catch (Exception e) { // TODO Auto-generated catch block }
 		 */
-		logger.info("UnInstalling Image Compare Addon");
+		log.info("UnInstalling Image Compare Addon");
 		hp.image_Comapre_UnInstall();
 		hp.image_Comapre_UnInstall_Confirm();
-		logger.info("UnInstalled Image Compare Addon");
+		log.info("UnInstalled Image Compare Addon");
 	}
 
 	@AfterTest

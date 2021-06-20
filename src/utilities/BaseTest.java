@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+/*import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;*/
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
@@ -26,19 +26,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	public WebDriver driver;
-	protected static Logger logger;
-
-	public static Logger logger_Method(String classname) {
-		logger = Logger.getLogger(classname);
-		PropertyConfigurator.configure("src/resources/Log4j.properties");
-		return logger;
-	}
 
 	// Launch Browser
 	// @BeforeMethod
 	public WebDriver LaunchURL(String browsername) {
 
-		logger.info("Opening Browser");
+		// logger.info("Opening Browser");
 		// System.setProperty("webdriver.chrome.driver",
 		// "chromedriver/chromedriver.exe");
 		if (browsername.equalsIgnoreCase("chrome")) {
@@ -58,9 +51,9 @@ public class BaseTest {
 			driver.manage().timeouts().implicitlyWait(30000, TimeUnit.MILLISECONDS);
 		}
 
-		logger.info("Maximizing Browser");
+		// logger.info("Maximizing Browser");
 		driver.manage().window().maximize();
-		logger.info("Deleting Cookies");
+		// logger.info("Deleting Cookies");
 		driver.manage().deleteAllCookies();
 		driver.get("chrome://settings/clearBrowserData");
 		driver.findElement(By.xpath("//settings-ui")).sendKeys(Keys.ENTER);

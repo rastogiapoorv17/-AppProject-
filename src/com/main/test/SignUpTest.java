@@ -2,6 +2,8 @@ package com.main.test;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -14,17 +16,19 @@ import utilities.BaseTest;
 
 public class SignUpTest extends BaseTest {
 
+	public static Logger log = LogManager.getLogger(BaseTest.class.getName());
+
 	@BeforeTest
 	@Parameters("browsername")
 	public void initiate_launch(String browsername) {
-		super.logger_Method(SignUpTest.class.getName());
+		// super.logger_Method(SignUpTest.class.getName());
 		driver = LaunchURL(browsername);
 	}
 
 	@Test
 	public void registerTest() {
 		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
-		logger.info("Signing Up");
+		log.info("Signing Up");
 		LoginPage lg = new LoginPage(driver);
 		lg.signupClick();
 		SignUp sg = new SignUp(driver);
@@ -35,7 +39,7 @@ public class SignUpTest extends BaseTest {
 		sg.password_Enter();
 		sg.check_Select();
 		sg.submit_Click();
-		logger.info("Successfully Signup");
+		log.info("Successfully Signup");
 
 	}
 

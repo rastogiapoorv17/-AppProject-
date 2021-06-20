@@ -424,3 +424,26 @@
 2021-06-18 16:42:03,356 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Installing	PDF Actions Addon
 2021-06-18 16:42:09,770 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - UnInstalling Image Compare Addon
 2021-06-18 16:42:11,300 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - UnInstalled Image Compare Addon
+2021-06-20 17:59:09,693 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Opening Browser
+2021-06-20 17:59:24,366 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Maximizing Browser
+2021-06-20 17:59:24,560 [TestNG-tests-1] INFO com.main.test.Click_Image_Profile_Assert - Deleting Cookies
+2021-06-20 17:59:28,778 [TestNG-tests-1] INFO com.main.test.LoginTest - Opening Browser
+2021-06-20 17:59:34,463 [TestNG-tests-1] INFO com.main.test.LoginTest - Maximizing Browser
+2021-06-20 17:59:34,916 [TestNG-tests-1] INFO com.main.test.LoginTest - Deleting Cookies
+2021-06-20 17:59:40,657 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening Browser
+2021-06-20 17:59:45,436 [TestNG-tests-1] INFO com.main.test.SignUpTest - Maximizing Browser
+2021-06-20 17:59:45,596 [TestNG-tests-1] INFO com.main.test.SignUpTest - Deleting Cookies
+2021-06-20 17:59:50,335 [TestNG-tests-1] INFO com.main.test.SignUpTest - Signing Up
+2021-06-20 17:59:58,817 [TestNG-tests-1] INFO com.main.test.SignUpTest - Successfully Signup
+2021-06-20 18:00:25,281 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-20 18:00:25,817 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-20 18:00:29,583 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening LoginPage
+2021-06-20 18:00:31,485 [TestNG-tests-1] INFO com.main.test.SignUpTest - Submitting Login Button
+2021-06-20 18:00:39,971 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening HomePage
+2021-06-20 18:00:40,095 [TestNG-tests-1] INFO com.main.test.SignUpTest - Hover On Profile
+2021-06-20 18:00:59,189 [TestNG-tests-1] INFO com.main.test.SignUpTest - Verifying Test Match
+2021-06-20 18:00:59,270 [TestNG-tests-1] INFO com.main.test.SignUpTest - Opening HomePage
+2021-06-20 18:01:50,406 [TestNG-tests-1] INFO com.main.test.SignUpTest - Clicking on Scroll Button
+2021-06-20 18:01:52,152 [TestNG-tests-1] INFO com.main.test.SignUpTest - Installing	PDF Actions Addon
+2021-06-20 18:01:54,016 [TestNG-tests-1] INFO com.main.test.SignUpTest - UnInstalling Image Compare Addon
+2021-06-20 18:01:56,075 [TestNG-tests-1] INFO com.main.test.SignUpTest - UnInstalled Image Compare Addon
