@@ -1,0 +1,13 @@
+12:48:21.693 [TestNG-methods-4] INFO  utilities.BaseTest - Submitting Login Button
+12:48:21.747 [TestNG-methods-2] INFO  utilities.BaseTest - Submitting Login Button
+12:48:21.791 [TestNG-methods-1] INFO  utilities.BaseTest - Submitting Login Button
+12:48:21.823 [TestNG-methods-3] INFO  utilities.BaseTest - Submitting Login Button
+12:48:21.863 [TestNG-methods-5] INFO  utilities.BaseTest - Submitting Login Button
+12:48:22.371 [TestNG-methods-4] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:48:22.495 [TestNG-methods-2] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:48:22.644 [TestNG-methods-1] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:48:22.725 [TestNG-methods-3] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:48:22.790 [TestNG-methods-5] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:52:25.704 [TestNG-tests-1] INFO  utilities.BaseTest - Opening LoginPage
+12:52:26.378 [TestNG-tests-1] INFO  utilities.BaseTest - Submitting Login Button
+12:52:29.902 [TestNG-tests-1] DEBUG utilities.BaseTest - Submitting Credentials

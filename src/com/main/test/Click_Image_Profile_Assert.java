@@ -23,7 +23,7 @@ import utilities.CommonExcelRead;
 public class Click_Image_Profile_Assert extends BaseTest {
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(BaseTest.class.getName());
-
+	public static CommonExcelRead data;
 	@BeforeTest
 	@Parameters("browsername")
 	public void initiate_launch(String browsername) {
@@ -34,8 +34,8 @@ public class Click_Image_Profile_Assert extends BaseTest {
 	@Test(enabled = true, priority = 1)
 	public void navigatetoScoll() throws IOException {
 
-		CommonExcelRead data = new CommonExcelRead();
-		ArrayList<String> creds = data.getData("Credentials");
+		data = new CommonExcelRead();
+		ArrayList<String> creds = data.getData("Credentials","Login");
 		log.info("Opening LoginPage");
 		LoginPage lp = new LoginPage(driver);
 		lp.loginField(creds.get(1));
@@ -45,26 +45,15 @@ public class Click_Image_Profile_Assert extends BaseTest {
 
 		log.debug("Submitting Credentials");
 		HomePage hp = new HomePage(driver);
-		/*
-		 * WebElement sp1= driver.findElement(HomePage.spinner);
-		 * super.explicitVisible(sp1);
-		 */
-
-		// hp.click_Element();
-
 		String expectedText = "My Profile";
 		log.info("Hover On Profile");
 
 		hp.hoverProfile();
 		String actualText = hp.myProfile();
-		log.error("Text Not Match On Hover");
-		try {
-			Assert.assertEquals(actualText, expectedText);
+		System.out.println(actualText);
+		Assert.assertEquals(actualText, expectedText);
+		log.info("Text Match On Hover");
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-
-		}
 	}
 
 	@Test(dependsOnMethods = { "navigatetoScoll" }, enabled = true, priority = 2)
@@ -86,16 +75,30 @@ public class Click_Image_Profile_Assert extends BaseTest {
 
 		log.debug("Installing	PDF Actions Addon");
 		hp.image_Comapre_Install();
-		/*
-		 * String install_actual_message= hp.install_message(); String
-		 * install_expected_message ="Succeeded to install \"PDF Actions\" addon!"; try
-		 * { Assert.assertEquals(install_actual_message, install_expected_message); }
-		 * catch (Exception e) { // TODO Auto-generated catch block }
-		 */
+		log.error("Install button is not visible");
+
+		String install_actual_message = hp.install_message();
+		ArrayList<String> message= data.getData("Message", "Messages");
+		String install_expected_message = message.get(1);
+		try {
+			Assert.assertEquals(install_actual_message, install_expected_message);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		log.info("UnInstalling Image Compare Addon");
 		hp.image_Comapre_UnInstall();
 		hp.image_Comapre_UnInstall_Confirm();
 		log.info("UnInstalled Image Compare Addon");
+		String uninstall_actual_message = hp.uninstall_message();
+		String uninstall_expected_message = message.get(2);;
+		try {
+			Assert.assertEquals(uninstall_actual_message, uninstall_expected_message);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@AfterTest

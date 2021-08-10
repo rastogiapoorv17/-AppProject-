@@ -1,10 +1,12 @@
 com\main\test\Click_Image_Profile_Assert.class
-com\main\pages\LoginPage.class
-com\main\pages\HomePage.class
 utilities\ExtentReport.class
+Analayzer\MyTransformer.class
+Analayzer\RetryAnalyzer.class
 com\main\pages\SignUp.class
 com\main\test\SignUpTest.class
-utilities\TestngListener.class
 utilities\BaseTest.class
-utilities\CommonExcelRead.class
 com\main\test\LoginTest.class
+com\main\pages\LoginPage.class
+com\main\pages\HomePage.class
+utilities\TestngListener.class
+utilities\CommonExcelRead.class

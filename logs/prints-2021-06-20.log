@@ -1,7 +1,0 @@
-18:41:23.354 [TestNG-tests-1] INFO  utilities.BaseTest - Initializing Driver
-18:41:24.454 [TestNG-tests-1] INFO  utilities.BaseTest - Opening LoginPage
-18:41:24.876 [TestNG-tests-1] INFO  utilities.BaseTest - Submitting Login Button
-18:41:27.461 [TestNG-tests-1] DEBUG utilities.BaseTest - Submitting Login Credentials
-19:34:04.744 [TestNG-tests-1] INFO  utilities.BaseTest - Initializing Driver
-19:34:08.078 [TestNG-tests-1] INFO  utilities.BaseTest - Opening LoginPage
-19:34:08.668 [TestNG-tests-1] INFO  utilities.BaseTest - Submitting Login Button

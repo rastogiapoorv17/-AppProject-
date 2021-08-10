@@ -1,0 +1,13 @@
+11:03:04.381 [TestNG-methods-4] DEBUG utilities.BaseTest - Submitting Login Credentials
+11:03:04.501 [TestNG-methods-2] DEBUG utilities.BaseTest - Submitting Login Credentials
+11:03:04.574 [TestNG-methods-3] DEBUG utilities.BaseTest - Submitting Login Credentials
+11:03:04.656 [TestNG-methods-5] DEBUG utilities.BaseTest - Submitting Login Credentials
+11:05:40.889 [TestNG-tests-1] INFO  utilities.BaseTest - Initializing Driver
+11:05:42.671 [TestNG-methods-2] INFO  utilities.BaseTest - Opening LoginPage
+11:05:42.692 [TestNG-methods-4] INFO  utilities.BaseTest - Opening LoginPage
+11:05:42.717 [TestNG-methods-3] INFO  utilities.BaseTest - Opening LoginPage
+11:05:42.723 [TestNG-methods-5] INFO  utilities.BaseTest - Opening LoginPage
+11:05:42.730 [TestNG-methods-1] INFO  utilities.BaseTest - Opening LoginPage
+11:05:44.492 [TestNG-methods-4] INFO  utilities.BaseTest - Submitting Login Button
+11:05:44.544 [TestNG-methods-2] INFO  utilities.BaseTest - Submitting Login Button
+11:05:44.640 [TestNG-methods-3] INFO  utilities.BaseTest - Submitting Login Button

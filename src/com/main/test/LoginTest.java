@@ -30,10 +30,10 @@ public class LoginTest extends BaseTest {
 		log.info("Initializing Driver");
 	}
 
-	@Test
+	@Test(invocationCount = 5, threadPoolSize = 5)
 	public void loginTest() throws IOException {
 		CommonExcelRead data = new CommonExcelRead();
-		ArrayList<String> creds = data.getData("Credentials");
+		ArrayList<String> creds = data.getData("Credentials","Login");
 		log.info("Opening LoginPage");
 		LoginPage lp = new LoginPage(driver);
 		System.out.println(creds.get(1));

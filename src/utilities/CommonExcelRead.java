@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class CommonExcelRead {
-	public ArrayList<String> getData(String testName) throws IOException {
+	public ArrayList<String> getData(String testName, String sheetName) throws IOException {
 		ArrayList<String> arr = new ArrayList<String>();
         
 		FileInputStream fis = new FileInputStream("src/resources/TestAppProject.xlsx");
@@ -19,14 +19,14 @@ public class CommonExcelRead {
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
 		int sheetcount = wb.getNumberOfSheets();
 		for (int i = 0; i < sheetcount; i++) {
-			if (wb.getSheetName(i).equalsIgnoreCase("login")) {
+			if (wb.getSheetName(i).equalsIgnoreCase(sheetName)) {
 				XSSFSheet sheet = wb.getSheetAt(i);
 				// Identify Testcases coloum by scanning the entire 1st row
 				Iterator<Row> row = sheet.iterator();
 				Row firstRow = row.next();
 				Iterator<Cell> ce = firstRow.cellIterator();
 				int k = 0;
-				@SuppressWarnings("unused")
+				
 				int column = 0;
 				while (ce.hasNext()) {
 					Cell value = ce.next();

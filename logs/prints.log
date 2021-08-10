@@ -1,1 +1,8 @@
-19:34:13.502 [TestNG-tests-1] DEBUG utilities.BaseTest - Submitting Login Credentials
+12:52:29.947 [TestNG-tests-1] INFO  utilities.BaseTest - Hover On Profile
+12:52:49.013 [TestNG-tests-1] INFO  utilities.BaseTest - Text Match On Hover
+12:52:49.024 [TestNG-tests-1] INFO  utilities.BaseTest - Opening HomePage
+12:53:39.873 [TestNG-tests-1] INFO  utilities.BaseTest - Clicking on Scroll Button
+12:53:40.123 [TestNG-tests-1] DEBUG utilities.BaseTest - Installing	PDF Actions Addon
+12:53:42.300 [TestNG-tests-1] ERROR utilities.BaseTest - Install button is not visible
+12:53:43.832 [TestNG-tests-1] INFO  utilities.BaseTest - UnInstalling Image Compare Addon
+12:53:44.585 [TestNG-tests-1] INFO  utilities.BaseTest - UnInstalled Image Compare Addon

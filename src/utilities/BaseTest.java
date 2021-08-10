@@ -1,15 +1,10 @@
 package utilities;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-/*import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;*/
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -28,7 +23,7 @@ public class BaseTest {
 	public WebDriver driver;
 
 	// Launch Browser
-	// @BeforeMethod
+
 	public WebDriver LaunchURL(String browsername) {
 
 		// logger.info("Opening Browser");
@@ -80,21 +75,6 @@ public class BaseTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
-
-	// Readding Excel
-	@SuppressWarnings("resource")
-	public String readExcelData(String path, String sheetname, int rownum, int cellnum) throws Exception {
-
-		File src = new File(path);
-
-		FileInputStream file = new FileInputStream(src);
-
-		XSSFWorkbook wb = new XSSFWorkbook(file);
-		XSSFSheet sheet = wb.getSheet(sheetname);
-		String data = sheet.getRow(rownum).getCell(cellnum).getStringCellValue();
-		return data;
-
 	}
 
 	// Capture Screenshot

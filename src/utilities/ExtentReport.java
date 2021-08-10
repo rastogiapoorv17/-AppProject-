@@ -1,7 +1,5 @@
 package utilities;
 
-import org.testng.ITestResult;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -10,7 +8,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentReport extends BaseTest {
 	public static ExtentReports extent; // ExtentReports responsible to drive all the reporting execution
 	public static ExtentTest test; // ExtentTest captures the test result what is happening in execution
-	ITestResult result;
+	//ITestResult result;
 
 	// Extent Report Part
 	public static ExtentReports ExtentReportInitiate() {
